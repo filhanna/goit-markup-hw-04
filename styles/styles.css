@@ -173,6 +173,11 @@ img {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+  /* background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47,48,58,0.4)rgba(47,48,58,0.4)), url(../image/img_hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 /* Контейнер */
 .container {
@@ -463,6 +468,10 @@ fill: var(--social-icon-color);
   height: 16px;
   fill: var(--secondary-text-color);
 }
+.link:hover .activation-icon,
+.link:focus .activation-icon {
+  fill: var(--activity-color);
+}
 /* .mail-icon:hover{
   fill: var(--activity-color);
 }
@@ -477,9 +486,13 @@ fill: var(--social-icon-color);
   fill: var(--activity-color);
 } */
 
-.link:hover .mail-icon,
+/* .link:hover .mail-icon,
 .link:focus .mail-icon,
 .link:hover .tell-icon,
 .link:focus .tell-icon{
   fill: var(--activity-color);
-}
+} */
+/* link:hover .activation-icon,
+link:focus .activation-icon {
+  fill: var(--activity-color);
+} */
