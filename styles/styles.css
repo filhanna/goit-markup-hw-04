@@ -274,7 +274,6 @@ img {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 10px;
   color: var(--primary-text-color);
 }
 .feature-text {
@@ -286,8 +285,6 @@ img {
   color: var(--secondary-text-color);
 }
 .feature-list-item {
-  min-width: 270px;
-  height: 98px;
   display: block;
 }
 /* Чим ми займаємось*/
