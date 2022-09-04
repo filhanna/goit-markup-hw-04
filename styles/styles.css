@@ -178,6 +178,7 @@ img {
 .section.work {
   padding-top: 0;
   padding-bottom: 0;
+ 
 }
 
 
@@ -293,7 +294,7 @@ img {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin-bottom: 94px;
+
 }
 .caption {
   font-weight: 700;
