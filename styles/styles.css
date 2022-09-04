@@ -171,6 +171,7 @@ img {
   padding-bottom: 0;
 }
 
+
 /* Слоган*/
 .slogan {
   font-weight: 900;
@@ -278,6 +279,7 @@ img {
 .feature-list-item {
   min-width: 270px;
   height: 98px;
+  display: block;
 }
 /* Чим ми займаємось*/
 .list-how {
@@ -491,9 +493,11 @@ img {
 }
 .project-item {
   text-decoration: none;
+  display: block;
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+
+.project-item:hover,
+.project-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -556,6 +560,7 @@ img {
 }
 
 /* Clietns */
+
 .client-title {
   font-weight: 700;
   font-size: 36px;
